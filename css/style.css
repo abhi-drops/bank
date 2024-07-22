@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Questrial", sans-serif;
+}
+
+
+
+.box-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.divider{
+  width: 2px;
+  height: 10px;
+  background-color: black;
+}
+
+.box{
+  width: 20vw;
+  height:20vw;
+}
+
+@media (max-width:641px)  {
+  .box{
+    width: 100vw;
+    height: 100vw;
+  }
+
+  .footer{
+    margin-top: 270vh;
+  }
+ }
